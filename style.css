@@ -249,3 +249,31 @@ label{
 #chat{
     display: none;
 }
+.chat__cont-p{
+    position: absolute;
+    color: #fff;
+    background-color: #0E0E52;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    bottom: 10px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.chat__cont2{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    bottom: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.chat__header-p{
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+}
