@@ -72,7 +72,7 @@ a{
     position: relative;
 }
 .maind__cont-h2{
-    font-size: 3em;
+    font-size: 2.7em;
     display: inline-block;
     margin-bottom: 20px;
     padding-top: 103px;
@@ -109,7 +109,7 @@ a{
     
 }
 .maine__cont-h2{
-    font-size: 3em;
+    font-size: 2.7em;
     margin-bottom: 20px;   
 }
 .maine__cont-p{
@@ -183,6 +183,9 @@ a{
     bottom: 80px;
     right: -300px;
     transition: 0.7s;
+    border: 1px solid #000;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
 }
 .chat__cont{
     width: 250px;
@@ -276,4 +279,43 @@ label{
     position: absolute;
     top: 15px;
     margin-left: 10px;
+}
+.mainf__cont{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    padding-top: 92px;
+    padding-bottom: 91px;
+    position: relative;
+}
+.mainf__cont-h2{
+    font-size: 2.7em;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.mainf__cont2{
+    display: flex;
+}
+.mainf__cont2-cont2{
+    border: 1px solid #000;
+}
+.mainf__cont2-la{
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 10px;
+    transition: 0.4s;
+}
+.mainf__cont2-cont{
+    font-size: 2em;
+    width: 50%;
+    display:flex;
+    flex-flow: column;
+    align-items: flex-start;
+    
+}
+.mainf__cont2-la:hover{
+    background-color: #5e2129;
+    color: #fff;
+    transition: 0.4s;
 }
