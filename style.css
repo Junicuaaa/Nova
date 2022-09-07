@@ -297,10 +297,7 @@ label{
 .mainf__cont2{
     display: flex;
 }
-.mainf__cont2-cont2{
-    border: 1px solid #000;
-}
-.mainf__cont2-la{
+.mainf__cont2-cont label{
     padding: 10px;
     border: 1px solid #000;
     margin: 10px;
@@ -311,11 +308,55 @@ label{
     width: 50%;
     display:flex;
     flex-flow: column;
-    align-items: flex-start;
-    
+    align-items: center;
+    border: 1px dashed #000;
 }
 .mainf__cont2-la:hover{
+    background-color: #5BEBD4;
+    transition: 0.4s;
+}
+.mainf__cont2-la2:hover{
     background-color: #5e2129;
     color: #fff;
     transition: 0.4s;
+}
+.mainf__cont2-la3:hover{
+    background-color: #ea899a;
+    transition: 0.4s;
+    color: #fff;
+}
+.mainf__cont2-la4:hover{
+    background-color: #aaa;
+    transition: 0.4s;
+    color: #fff;
+}
+.mainf__cont2-la6:hover{
+    background-color: #2291B4;
+    transition: 0.4s;
+    color: #fff;
+}
+.mainf__cont2-cont2 img{
+    position: absolute;
+    display: none;
+}
+.mainf__cont2-cont2 input{
+    display: none;
+}
+#celeste:checked ~ .mainf__uniforme1{
+    display: block;
+}
+#vinotinto:checked ~ .mainf__uniforme2{
+    display: block;
+}
+#palorosa:checked ~ .mainf__uniforme3{
+    display: block;
+}
+#gris:checked ~ .mainf__uniforme4{
+    display: block;
+}
+#blanco:checked ~ .mainf__uniforme5{
+    display: block;
+}
+#azulrey:checked ~ .mainf__uniforme6{
+    display: block;
 }
